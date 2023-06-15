@@ -28,7 +28,7 @@ variable "domain" {
 }
 
 variable "dns_name" {
-  description = "DNS name for API service"
+  description = "dns name for API service"
   type        = string
   default     = "terraform-aws-cdn"
 }
